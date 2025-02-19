@@ -1,5 +1,5 @@
 {% set name = "tiny-retriever" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tiny_retriever-{{ version }}.tar.gz
-  sha256: 36b4c31f5f5ae115047799d0ba95e6220192bd7dfa223a2c471716b69fae304b
+  sha256: b022922f22894e0b7fbb881e706ee1033372dff1c6233ffad63970b7ec2544d0
 
 build:
   noarch: python
